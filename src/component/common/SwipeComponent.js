@@ -9,7 +9,6 @@ const SwipeForNoComponent = ({ clickrdValue }) => {
     const handleSwipeRight = () => {
         console.log('jiuy98y')
         setIsSwiped((prev) => !prev);
-        // Perform your desired action when the user swipes right
     };
 
     const renderLeftActions = () => {

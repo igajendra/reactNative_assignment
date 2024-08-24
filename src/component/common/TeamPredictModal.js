@@ -125,26 +125,89 @@ const styles = StyleSheet.create({
         borderTopLeftRadius: 20,
         borderTopRightRadius: 20,
     },
-    borderView: { flexDirection: 'row', margin: 10, alignItems: 'center', justifyContent: 'center' },
-    yesText: { fontSize: 20, fontWeight: '900', color: '#fff', borderWidth: 0, margin: 15, paddingHorizontal: 15 },
-    yesView: { borderWidth: 1.1, borderColor: '#2a6ff7', flex: 1, alignItems: 'center', borderRadius: 24, padding: 15, backgroundColor: '#1036A6' },
-    buttonView: { borderColor: 'white', borderRadius: 24, backgroundColor: '#1c1c1c', flexDirection: 'row', alignItems: 'center', gap: 40, marginTop: 10 },
-    buttonInnerView: { borderColor: 'white', borderRadius: 24, width: '50%' },
-    noView: { borderWidth: 1.1, borderColor: '#49b957', flex: 1, alignItems: 'center', borderRadius: 24, padding: 15, backgroundColor: '#2ecc72' },
-    yesNoText: { fontSize: 20, fontWeight: '900', color: '#fff' },
-    buttonView2: { borderWidth: 0.2, borderColor: '#fff', marginTop: 15, borderRadius: 10 },
-    quntatyText: { color: 'grey', fontSize: 14, fontWeight: '500', alignSelf: 'flex-end', padding: 5 },
-    priceText: { color: '#fff', fontSize: 18, fontWeight: '800' },
-    rupeesView: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 10 },
-    putText: { color: '#E2DFD2', fontSize: 18, fontWeight: '500' },
+    borderView: {
+        flexDirection: 'row',
+        margin: 10,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+    yesText: {
+        fontSize: 20,
+        fontWeight: '900',
+        color: '#fff',
+        borderWidth: 0,
+        margin: 15,
+        paddingHorizontal: 15
+    },
+    yesView: {
+        borderWidth: 1.1, borderColor: '#2a6ff7',
+        flex: 1, alignItems: 'center',
+        borderRadius: 24,
+        padding: 15, backgroundColor: '#1036A6'
+    },
+    buttonView: {
+        borderColor: 'white',
+        borderRadius: 24,
+        backgroundColor: '#1c1c1c',
+        flexDirection: 'row', alignItems:
+            'center', gap: 40, marginTop: 10
+    },
+    buttonInnerView: {
+        borderColor: 'white',
+        borderRadius: 24, width: '50%'
+    },
+    noView: {
+        borderWidth: 1.1,
+        borderColor: '#49b957', flex: 1,
+        alignItems: 'center', borderRadius: 24, padding: 15,
+        backgroundColor: '#2ecc72'
+    },
+    yesNoText: {
+        fontSize: 20,
+        fontWeight: '900',
+        color: '#fff'
+    },
+    buttonView2: {
+        borderWidth: 0.2,
+        borderColor: '#fff',
+        marginTop: 15,
+        borderRadius: 10
+    },
+    quntatyText: {
+        color: 'grey', fontSize: 14,
+        fontWeight: '500',
+        alignSelf: 'flex-end', padding: 5
+    },
+    priceText: {
+        color: '#fff', fontSize: 18,
+        fontWeight: '800'
+    },
+    rupeesView: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        paddingHorizontal: 10
+    },
+    putText: {
+        color: '#E2DFD2', fontSize: 18,
+        fontWeight: '500'
+    },
     headerContainer: {
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: 'center',
         marginTop: 10,
     },
-    iplLogo: { width: 45, height: 50, borderWidth: 0, borderColor: 'red', borderRadius: 15, },
-    pricePytView: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: 10 },
+    iplLogo: {
+        width: 45, height: 50,
+        borderRadius: 15,
+    },
+    pricePytView: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        padding: 10
+    },
     header: {
         fontSize: 16,
         fontWeight: Platform.OS === "ios" ? "700" : "bold",
@@ -155,7 +218,11 @@ const styles = StyleSheet.create({
         fontSize: 14,
         lineHeight: 20,
     },
-    availableBlance: { color: '#fff', alignSelf: 'center', fontSize: 15, fontWeight: '500' }
+    availableBlance: {
+        color: '#fff',
+        alignSelf: 'center', fontSize: 15,
+        fontWeight: '500'
+    }
 });
 
 export default TeamPredictModal;

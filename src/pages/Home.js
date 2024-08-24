@@ -1,6 +1,15 @@
-import { StyleSheet, Text, View, SafeAreaView, Image, TouchableOpacity, ScrollView, FlatList, Dimensions } from 'react-native'
+import {
+    StyleSheet, Text,
+    View,
+    SafeAreaView,
+    Image,
+    TouchableOpacity,
+    ScrollView,
+    FlatList,
+    Dimensions
+} from 'react-native'
 import React, { useState } from 'react'
-import YesNoModal from '../component/common/TeamPredictModal';
+import TeamPredictModal from '../component/common/TeamPredictModal';
 import CustomDropdown from '../component/common/CustomDropdown';
 import CustomSwitch from '../component/common/CustomSwitch';
 
@@ -76,7 +85,6 @@ const Home = () => {
 
                     </TouchableOpacity>
                 </View>
-                <YesNoModal visible={showModal} setModalVisible={setShowModal} clickrdValue={clickrdValue} />
             </View>
         );
     };
@@ -138,6 +146,7 @@ const Home = () => {
                     <MatchPredictionCard />
                     <MatchPredictionCard />
                 </View>
+                <TeamPredictModal visible={showModal} setModalVisible={setShowModal} clickrdValue={clickrdValue} />
             </ScrollView>
         </SafeAreaView>
     );
@@ -154,8 +163,14 @@ const styles = StyleSheet.create({
         marginVertical: 20,
     },
 
-    liveText: { color: '#fff', fontSize: 16, fontWeight: 'bold' },
-    switchContainer: { flexDirection: 'row', alignItems: 'center', gap: 15 },
+    liveText: {
+        color: '#fff', fontSize: 16,
+        fontWeight: 'bold'
+    },
+    switchContainer: {
+        flexDirection: 'row',
+        alignItems: 'center', gap: 15
+    },
     text: {
         color: '#fff',
     },
@@ -165,11 +180,33 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         marginBottom: 15
     },
-    innerContainer: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginVertical: 10 },
-    title1: { color: '#fff', margin: 5, fontWeight: '700' },
-    title2: { flexDirection: 'row', alignItems: 'center', padding: 5, gap: 10 },
-    cardHeading: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', padding: 16, gap: 20 },
-    HeadingCardContainer: { flexDirection: 'row', alignItems: 'center', backgroundColor: '#1C1C1E', borderRadius: 8, padding: 2 },
+    innerContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        marginVertical: 10
+    },
+    title1: {
+        color: '#fff', margin: 5,
+        fontWeight: '700'
+    },
+    title2: {
+        flexDirection: 'row',
+        alignItems: 'center', padding: 5,
+        gap: 10
+    },
+    cardHeading: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        padding: 16, gap: 20
+    },
+    HeadingCardContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        backgroundColor: '#1C1C1E',
+        borderRadius: 8, padding: 2
+    },
     question: {
         color: '#fff',
         fontSize: 18,
@@ -179,7 +216,6 @@ const styles = StyleSheet.create({
     stats: {
         color: '#fff',
         fontSize: 12,
-        // textAlign: 'center',
         marginBottom: 16,
     },
     buttonContainer: {

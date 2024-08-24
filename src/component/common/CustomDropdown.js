@@ -37,7 +37,6 @@ const CustomDropdown = () => {
                 </TouchableOpacity>
             </Modal>
         </View>
-
     );
 };
 
@@ -60,7 +59,6 @@ const styles = StyleSheet.create({
     },
     modalOverlay: {
         flex: 1,
-        // justifyContent: 'center',
         alignItems: 'center',
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
         marginTop: 50,

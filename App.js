@@ -12,8 +12,6 @@ const icons = {
   briefcase: require('./media/portfolio2.png'),
   wallet: require('./media/wallet2.png'),
   user: require('./media/profile2.png')
-
-
 }
 
 const Tab = createBottomTabNavigator();
