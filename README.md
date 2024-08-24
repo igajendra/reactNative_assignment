@@ -1,8 +1,8 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-![Home Page UI](/media/ss1.png)=300x
-![Yes Page UI](/media/ss2.png)=300x
-![No Page UI](/media/ss3.png)=300x
+![Home Screen](/media/ss1.png) =300x
+![Yes screen](/media/ss2.png) =300x
+![No Screen](/media/ss3.png) =300x
 
 # Getting Started
 
